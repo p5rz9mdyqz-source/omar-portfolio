@@ -1,0 +1,391 @@
+
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>OMAR Portfolio | WASSCE Learning Hub</title>
+
+  <meta name="description" content="OMAR Portfolio — a student learning platform with WASSCE study resources and revision tools.">
+
+</head>
+
+<body>
+
+  <header class="site-header">
+
+    <a class="brand" href="#home">📚 OMAR <span>Portfolio</span></a>
+
+    <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu">☰</button>
+
+    <nav id="mainNav">
+
+      <a href="#home">Home</a>
+
+      <a href="#past-questions">Past Questions</a>
+
+      <a href="#study-tools">Study Tools</a>
+
+      <a href="#portfolio">About OMAR</a>
+
+    </nav>
+
+  </header>
+
+  <main>
+
+    <section class="hero" id="home">
+
+      <div>
+
+        <span class="eyebrow">WELCOME TO MY LEARNING PLATFORM</span>
+
+        <h1>Learn Today.<br><span>Achieve Tomorrow.</span></h1>
+
+        <p>Welcome to OMAR Portfolio! Explore WASSCE study resources,
+
+          plan your revision, practise your knowledge and keep learning.</p>
+
+        <div class="hero-actions">
+
+          <a class="btn primary" href="#past-questions">Explore Resources →</a>
+
+          <a class="btn secondary" href="#portfolio">Meet OMAR</a>
+
+        </div>
+
+        <p class="hero-note">📖 Learn • Practise • Improve</p>
+
+      </div>
+
+      <div class="hero-art">
+
+        <div class="circle"></div>
+
+        <div class="book book1">WASSCE</div>
+
+        <div class="book book2">LEARN</div>
+
+        <div class="book book3">SUCCEED</div>
+
+        <div class="graduation">🎓</div>
+
+      </div>
+
+    </section>
+
+    <section class="stats">
+
+      <div><strong>11</strong><span>Subject resources</span></div>
+
+      <div><strong>12</strong><span>Study links</span></div>
+
+      <div><strong>24/7</strong><span>Learn at your pace</span></div>
+
+    </section>
+
+    <section class="section" id="past-questions">
+
+      <div class="section-heading">
+
+        <span class="eyebrow">YOUR STUDY LIBRARY</span>
+
+        <h2>WASSCE Past Questions</h2>
+
+        <p>Select a subject to open its Google Drive link.</p>
+
+      </div>
+
+      <div class="notice">
+
+        📌 These are shared resources, not an official WAEC website.
+
+        Check each file and confirm its suitability for your syllabus.
+
+      </div>
+
+      <label class="search-box">
+
+        🔎
+
+        <input id="subjectSearch" type="search" placeholder="Search subjects...">
+
+        <button id="clearSearch" type="button">✕</button>
+
+      </label>
+
+      <p id="resourceCount" class="count"></p>
+
+      <div class="subject-grid" id="subjectGrid">
+
+        <article class="subject-card" data-subject="additional mathematics maths">
+
+          <div class="subject-icon purple">∑</div>
+
+          <h3>Additional Mathematics</h3>
+
+          <p>Mathematics study resource</p>
+
+          <a href="https://drive.google.com/file/d/1kNQ2m4Xy3KEH08MouqLBmtfhnj0cSPzL/view?usp=sharing" target="_blank" rel="noopener noreferrer">Open resource ↗</a>
+
+        </article>
+
+        <article class="subject-card" data-subject="chemistry science">
+
+          <div class="subject-icon green">⚗️</div>
+
+          <h3>Chemistry</h3>
+
+          <p>Chemistry study resource</p>
+
+          <a href="https://drive.google.com/file/d/1DgazhljGXExwMryF2pPqvsoi9wbVb-p3/view?usp=sharing" target="_blank" rel="noopener noreferrer">Open resource ↗</a>
+
+        </article>
+
+        <article class="subject-card" data-subject="core mathematics maths">
+
+          <div class="subject-icon blue">π</div>
+
+          <h3>Core Mathematics</h3>
+
+          <p>Core mathematics resource</p>
+
+          <a href="https://drive.google.com/file/d/13jlCPbj2nn_vUz6Urdr0p8mcRbPlI6In/view?usp=sharing" target="_blank" rel="noopener noreferrer">Open resource ↗</a>
+
+        </article>
+
+        <article class="subject-card" data-subject="economics">
+
+          <div class="subject-icon orange">📈</div>
+
+          <h3>Economics</h3>
+
+          <p>Economics study resource</p>
+
+          <a href="https://drive.google.com/file/d/1-94ZN9Ia19K9kp8i1kDCxJMPKpJXeiOF/view?usp=sharing" target="_blank" rel="noopener noreferrer">Open resource ↗</a>
+
+        </article>
+
+        <article class="subject-card" data-subject="english language">
+
+          <div class="subject-icon red">Aa</div>
+
+          <h3>English Language</h3>
+
+          <p>English study resource</p>
+
+          <a href="https://drive.google.com/file/d/1kL-R444yAwHTo-TS1beiHirXr4l_A-jK/view?usp=sharing" target="_blank" rel="noopener noreferrer">Open resource ↗</a>
+
+        </article>
+
+        <article class="subject-card" data-subject="integrated science science">
+
+          <div class="subject-icon green">🧪</div>
+
+          <h3>Integrated Science</h3>
+
+          <p>Science study resource</p>
+
+          <a href="https://drive.google.com/file/d/1qMzGah3Ts83q6dKoU9wzbwmLqIxJHWgR/view?usp=sharing" target="_blank" rel="noopener noreferrer">Open resource ↗</a>
+
+        </article>
+
+        <article class="subject-card" data-subject="history">
+
+          <div class="subject-icon orange">🏛️</div>
+
+          <h3>History</h3>
+
+          <p>History study resource</p>
+
+          <a href="https://drive.google.com/file/d/1hGkBIsQLxLFeMdM-YM1YfKQl61dBH2A8/view?usp=sharing" target="_blank" rel="noopener noreferrer">Open resource ↗</a>
+
+        </article>
+
+        <article class="subject-card" data-subject="geography">
+
+          <div class="subject-icon blue">🌍</div>
+
+          <h3>Geography</h3>
+
+          <p>Geography study resource</p>
+
+          <a href="https://drive.google.com/file/d/1RJDAHEIvh1HcTYJjnP0ssAwMuD7-R5_N/view?usp=sharing" target="_blank" rel="noopener noreferrer">Open resource ↗</a>
+
+        </article>
+
+        <article class="subject-card" data-subject="government">
+
+          <div class="subject-icon purple">⚖️</div>
+
+          <h3>Government</h3>
+
+          <p>Government study resource</p>
+
+          <a href="https://drive.google.com/file/d/1jyTmw6w8ZugJas93FlJkkQS1VbnPHxUx/view?usp=sharing" target="_blank" rel="noopener noreferrer">Open resource ↗</a>
+
+        </article>
+
+        <article class="subject-card" data-subject="physics science">
+
+          <div class="subject-icon blue">⚡</div>
+
+          <h3>Physics</h3>
+
+          <p>Physics study resource</p>
+
+          <a href="https://drive.google.com/file/d/1e72Fo6iJW5-GpFeGfDPpoi63k4AXkpt4/view?usp=sharing" target="_blank" rel="noopener noreferrer">Open resource ↗</a>
+
+        </article>
+
+        <article class="subject-card" data-subject="social studies">
+
+          <div class="subject-icon green">🤝</div>
+
+          <h3>Social Studies</h3>
+
+          <p>Social studies resource</p>
+
+          <a href="https://drive.google.com/file/d/1d14QwIP7cyU8gkD_BApB4TKaj8YsC92K/view?usp=sharing" target="_blank" rel="noopener noreferrer">Open resource ↗</a>
+
+        </article>
+
+      </div>
+
+      <p id="noResults" hidden>No matching subject found. Try another search.</p>
+
+      <div class="all-resources">
+
+        <h3>📚 All Subjects, Scheme, Rules & Sample Questions</h3>
+
+        <p>Open the combined study resource.</p>
+
+        <a class="btn primary" href="https://drive.google.com/file/d/1eq9EX-33PdKr0UM29D0klnTZwEbcgfEk/view?usp=sharing" target="_blank" rel="noopener noreferrer">Open all resources ↗</a>
+
+      </div>
+
+    </section>
+
+    <section class="section study-section" id="study-tools">
+
+      <div class="section-heading">
+
+        <span class="eyebrow">BUILD GOOD STUDY HABITS</span>
+
+        <h2>Your Study Corner</h2>
+
+        <p>Organise your revision and check your knowledge.</p>
+
+      </div>
+
+      <div class="tools-grid">
+
+        <article class="tool-card">
+
+          <div class="tool-icon">🗓️</div>
+
+          <h3>Study Planner</h3>
+
+          <p>Add a task you want to complete.</p>
+
+          <input id="studyTask" type="text" placeholder="e.g. Revise Government">
+
+          <button class="btn primary full" id="addTask">Add task</button>
+
+          <ul id="taskList"></ul>
+
+        </article>
+
+        <article class="tool-card">
+
+          <div class="tool-icon">💡</div>
+
+          <h3>Revision Tips</h3>
+
+          <ul>
+
+            <li>Make a study timetable.</li>
+
+            <li>Practise questions regularly.</li>
+
+            <li>Review your mistakes.</li>
+
+            <li>Ask your teacher about difficult topics.</li>
+
+            <li>Take breaks and get enough sleep.</li>
+
+          </ul>
+
+        </article>
+
+        <article class="tool-card">
+
+          <div class="tool-icon">🎯</div>
+
+          <h3>Quick Quiz</h3>
+
+          <p>Which is a good revision habit?</p>
+
+          <div id="quizOptions" class="quiz-options">
+
+            <button data-correct="false">Ignore difficult topics</button>
+
+            <button data-correct="true">Practise and review mistakes</button>
+
+            <button data-correct="false">Study only the night before</button>
+
+          </div>
+
+          <p id="quizFeedback" aria-live="polite"></p>
+
+        </article>
+
+      </div>
+
+    </section>
+
+    <section class="portfolio-section" id="portfolio">
+
+      <div class="portfolio-avatar">👨🏽‍💻</div>
+
+      <span class="eyebrow">ABOUT THE CREATOR</span>
+
+      <h2>OMAR — My Portfolio</h2>
+
+      <p>Hello! I'm OMAR, a student and beginner web developer interested in creating useful websites and learning tools.</p>
+
+      <p>I built this platform to organise study resources and help learners practise and plan their revision.</p>
+
+      <div class="skills">
+
+        <span>HTML</span><span>CSS</span><span>JavaScript</span><span>Web Development</span>
+
+      </div>
+
+      <a class="btn secondary" href="#home">Back to top ↑</a>
+
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+
+    <a class="brand" href="#home">📚 OMAR <span>Portfolio</span></a>
+
+    <p>Learn • Practise • Achieve</p>
+
+    <p>Independent student project. Not an official WAEC website.</p>
+
+    <p>© <span id="currentYear"></span> OMAR Portfolio</p>
+
+  </footer>
+
+</body>
+
+</html>
